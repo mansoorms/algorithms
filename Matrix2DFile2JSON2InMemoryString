@@ -9,6 +9,7 @@ import org.json.simple.parser.JSONParserException;
 Customer provides file for ongoing uploads to calculate credit scores
 **/
 public  class Matrix2DFile2JSON2InMemoryString throws IOException, JSONParserException {
+  private static final Logger LOG = LogFactory.getLogger(Matrix2DFile2JSON2InMemoryString.class);
   JSONParser jsonParser = new JSONParser();
   File file = null;
   
