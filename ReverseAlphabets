@@ -1,0 +1,10 @@
+public class ReverseAlphabets {
+  public static void main(String[] args) {
+    char[] alphabetsInCharArray = {'a','b','c'};
+    String alphabetsAsString = "abcdefghijklmnopqrstuvwxyz";
+    String split[][] = null;
+    for(int i=1; i<=alphabetsAsString.length();) {
+      
+    }
+  }
+}
